@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <h1>Meal Plan</h1>
+      <h1>Menü Plan</h1>
 
       <input
         type="text"
@@ -39,10 +39,9 @@ function App() {
           () => addMeal(title, setTitle, setMeal)
         }
       >
-        {editing ? "Edit" : "Add"}
+        {editing ? "Redaktieren" : "Hinzufügen"}
       </button>
 
-      {/* <MyMeals text={"We got here!!"} /> */}
 
       {myMeal.map((meal) => <MyMeals text={meal.title} key={meal._id} 
         updatingInInput={() => updatingInInput(meal._id, meal.title)}
