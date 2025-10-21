@@ -39,7 +39,7 @@ function App() {
           () => addMeal(title, setTitle, setMeal)
         }
       >
-        {editing ? "Redaktieren" : "Hinzufügen"}
+        {editing ? "Korrigieren" : "Hinzufügen"}
       </button>
 
 
