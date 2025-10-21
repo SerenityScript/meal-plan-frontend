@@ -22,8 +22,8 @@ function App() {
   }
 
   return (
-    <>
-      <h1>Menü Plan</h1>
+    <div className='container'>
+      <h1>Party Menü Plan</h1>
 
       <input
         type="text"
@@ -49,7 +49,7 @@ function App() {
       />
       )}
 
-    </>
+    </div>
   )
 }
 
