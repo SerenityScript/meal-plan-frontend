@@ -11,7 +11,7 @@ Backend (Render): https://meal-plan-backend-zdxx.onrender.com
 → GET / liefert die aktuelle Liste der Meals.
 
 
-[![Meal Plan](src/demo.png)](https://DEIN-FRONTEND-LINK.example)
+[![Meal Plan](src/photo.png)](https://meal-planner-serenity.netlify.app/)
 
 ## 📋 Features
 
