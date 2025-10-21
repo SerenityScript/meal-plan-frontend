@@ -27,7 +27,7 @@ function App() {
 
       <input
         type="text"
-        placeholder='Add a meal'
+        placeholder='Was kommt auf den Tisch?'
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
